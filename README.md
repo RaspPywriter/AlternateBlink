@@ -1,2 +1,2 @@
 # AlternateBlink
-Alternate blinks
+Have one blink then another 
