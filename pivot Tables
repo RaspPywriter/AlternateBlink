@@ -8,4 +8,7 @@ Exercise 2:
 Go back, click on Country - now provides a summary of revenue for each country
 Now go to year, just drag it from the field list to column, this now puts the year in columns, and the table now breaks down revenue, by country, by year
 Revenue is in values, if you drag cost into values as well, you get the cost and revenue breakdown by year and country
+Now drag State below country in rows, so now the states are listed in rows beneath the country, and reveune is broken down
+Note that each country can be collapsed so you only get the country view (removes each state)
 
+Can add a pivot chart, click on insert pivot chart - then select the fields you want to see in the chart
