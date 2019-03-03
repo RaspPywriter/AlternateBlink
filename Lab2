@@ -3,3 +3,9 @@ Start by selecting insert --> table which converts the sheet to a filterable tab
 Create a row at the bottom labeled Total, total for US sales only = 27975547
 To get month, if you want it as a number: =MONTH([@Date])
 However, we are asked for text so: =TEXT([@Date], "mmm") for an abbreviated month or =TEXT([@Date], "mmmm") for the full spelled out month
+To get the age range:
+=IF([@[Customer Age]]<26, "Youth", IF([@[Customer Age]]<35, "Young Adult", IF([@[Customer Age]]<65, "Adult", IF([@[Customer Age]]>64, "Senior"))))
+To get frame size:
+=IF([@[Product Category]]="Bikes",RIGHT([@Product],2), " ")
+To get the revenue columnn:
+=[@Revenue]-[@Cost]
