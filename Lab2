@@ -1,0 +1,5 @@
+Lab 2
+Start by selecting insert --> table which converts the sheet to a filterable table
+Create a row at the bottom labeled Total, total for US sales only = 27975547
+To get month, if you want it as a number: =MONTH([@Date])
+However, we are asked for text so: =TEXT([@Date], "mmm") for an abbreviated month or =TEXT([@Date], "mmmm") for the full spelled out month
