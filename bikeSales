@@ -1,0 +1,10 @@
+Quiz
+You are only interested in the data for male customers in France. After setting the appropriate filters, answer the following questions.
+How many rows are displayed? 2573
+Calculate the revenue: =Sum(N2:N34867)= 1,770,366
+Average of revenue: =Average(N2:N34867) = 640.87
+
+Lab2 - using excel sheet above
+Q: What is the total revenue for all the sales in the United States? =Sum(N2:N34867)=  10,377,742
+Q: What is the total revenue for all the sales in the month of December? =2,116,097
+Q: What is the total revenue for all the sales for Young Adults Age Group?
