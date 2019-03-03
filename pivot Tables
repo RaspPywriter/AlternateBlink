@@ -1,0 +1,11 @@
+To create a pivot table from the data, simply select pivot table button while in your spreadsheet then ok
+Columns become fields in the field list - click to build the 
+Exercise 1:
+Click Revenue
+Simply returns one number: Sum of Revenue: 255813024
+Right-click: Format Cells: Currency
+Exercise 2:
+Go back, click on Country - now provides a summary of revenue for each country
+Now go to year, just drag it from the field list to column, this now puts the year in columns, and the table now breaks down revenue, by country, by year
+Revenue is in values, if you drag cost into values as well, you get the cost and revenue breakdown by year and country
+
