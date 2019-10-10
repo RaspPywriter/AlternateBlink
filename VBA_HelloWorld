@@ -1,0 +1,30 @@
+'Macro One - Guru99 tutorial'
+'Click button get name'
+Sub HelloWorld()
+    Dim Username As String
+    Username = InputBox("Type your name")
+    MsgBox "Hello " + Username
+End Sub
+
+'Macro Two - Microsoft tutorial'
+Sub Macro1()
+'
+' Macro1 Macro
+'
+'
+    Range("A10").Select
+    ActiveCell.FormulaR1C1 = "Hello World"
+    Range("A11").Select
+End Sub
+
+'Another Microsoft tutorial'
+Sub Macro3()
+'
+' Macro3 Macro
+'
+
+'
+    ActiveCell.FormulaR1C1 = """Hello World"""
+    Range("F9").Select
+End Sub
+
