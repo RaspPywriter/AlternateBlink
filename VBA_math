@@ -1,0 +1,64 @@
+Option Explicit
+
+Sub addition()
+    Dim number1 As Integer
+    Dim number2 As Integer
+    Dim answer As Integer
+    number1 = InputBox("Enter the first number")
+    number2 = InputBox("Enter the second number")
+    answer = number1 + number2
+    Worksheets(1).Range("K3").Value = answer
+End Sub
+
+Sub subtraction()
+    Dim number1 As Integer
+    Dim number2 As Integer
+    Dim answer As Integer
+    number1 = InputBox("Enter the first number")
+    number2 = InputBox("Enter the second number")
+    answer = number1 - number2
+    Worksheets(1).Range("K4").Value = answer
+End Sub
+
+Sub multiplication()
+    Dim number1 As Integer
+    Dim number2 As Integer
+    Dim answer As Integer
+    number1 = InputBox("Enter the first number")
+    number2 = InputBox("Enter the second number")
+    answer = number1 * number2
+    Worksheets(1).Range("K5").Value = answer
+End Sub
+
+Sub division()
+    Dim number1 As Integer
+    Dim number2 As Integer
+    Dim answer As Integer
+    number1 = InputBox("Enter the first number")
+    number2 = InputBox("Enter the second number")
+    answer = number1 / number2
+    Worksheets(1).Range("K6").Value = answer
+End Sub
+
+Sub squareRoot()
+    Dim number As Integer
+    Dim answer As Integer
+    number = InputBox("Enter a number to get it's square root")
+    answer = Sqr(number)
+    Worksheets(1).Range("K7").Value = answer
+End Sub
+
+
+Sub powers()
+Dim x As Double
+Dim y As Double
+Dim power As Double
+
+    Dim number As Integer
+    Dim powerVal As Integer
+    Dim answer As Integer
+    number = InputBox("Enter a number to raise to a power")
+    powerVal = InputBox("Enter the power")
+    answer = Application.WorksheetFunction.power(number, powerVal)
+    Worksheets(1).Range("K8").Value = answer
+End Sub
