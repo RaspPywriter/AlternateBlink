@@ -1,0 +1,14 @@
+Sub OpenOutlook()
+'create outlook object
+Dim oOutlook As Object
+
+On Error Resume Next
+Set oOutlook = GetObject(, "Outlook.Application")
+On Error GoTo 0
+
+If oOutlook Is Nothing Then
+  Shell ("OUTLOOK")
+Else
+'if it is already open
+End If 
+End Sub
