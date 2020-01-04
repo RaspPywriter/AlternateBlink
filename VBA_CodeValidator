@@ -1,0 +1,24 @@
+Option Explicit
+Sub CodeValidator()
+Dim Code As Variant
+Dim Message As String
+Dim Re As New RegExp
+
+Code = ActiveCell.Value
+
+'Validate that the code contains at least one number
+With Re
+    .Pattern = "[0-9]"
+End With
+    If Re.test(Code) = True Then
+        Message = "Code is Valid"
+    Else
+        Message = "Code is Invalid"
+    End If
+
+ActiveCell.Offset(0, 1).Value = Message
+
+End Sub
+        
+
+
