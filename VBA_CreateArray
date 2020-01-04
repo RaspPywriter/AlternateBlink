@@ -1,0 +1,30 @@
+Option Explicit
+
+Sub FirstArray()
+Dim Fruit(2) As String
+'Next three lines are insert statements to initialize each array
+'Last line will print First Fruit: Banana
+Fruit(0) = "Apple"
+Fruit(1) = "Banana"
+Fruit(2) = "Cherry"
+'Range means you put the sentence in A1
+'Selecting A1
+Range("A1") = "First Fruit: " & Fruit(1)
+'Example Specifying the range
+Dim Veg(1 To 3) As String
+Veg(1) = "Artichoke"
+Veg(2) = "Broccoli"
+Veg(3) = "Cabbage"
+Range("B1") = "First Veg: " & Veg(1)
+'Now declare a dynamic string array
+Dim Flower() As String
+ReDim Flower(1 To 3)
+'Now insert statements to initialize each
+'array eleemtn adn display value in
+'element at the final index number
+Flower(1) = "Azalea"
+Flower(2) = "Buttercup"
+Flower(3) = "Crocus"
+Range("C1") = "Final Flower: " & Flower(3)
+
+End Sub
