@@ -1,0 +1,17 @@
+Sub StringDate()
+Dim Str As String
+'Initialize variable concatenate strings and remvoe surrounding
+'white space
+Str = " Database "
+Str = "   Excel          " & Str
+Str = Trim(Str)
+Range("A1").Value = Str
+Range("B2").Value = InStr(Str, "data")
+Range("C2").Value = InStr(Str, "Data")
+Dim Valentine As Date
+Valentine = #2/14/2021#
+Range("A3").Value = Valentine
+Str = Format(Valentine, "mmmm, d")
+Range("B3").Value = Str
+
+End Sub
