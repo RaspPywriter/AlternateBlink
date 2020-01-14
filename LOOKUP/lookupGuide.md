@@ -1,8 +1,4 @@
 Lookup Formulas
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
 
 | Function | Description |
 | -------- | ----------- |
@@ -10,6 +6,7 @@ Lookup Formulas
 | IF | Returns one value if a condition you specify is TRUE and returns another value if the condition is FALSE. |
 | LOOKUP | Returns a value from either a one-row or one-column range. Another form of the LOOKUP function works like VLOOKUP but is restricted to returning a value from the last column of a range. |
 | OFFSET | Returns a reference to a range that is a specified number of rows and columns form a cell or range of cells. |
+
 **VLOOKUP** 
 Designed for lookup value that is to the left of what you want to search for. So in the example below, use the ID to find the name/pay/etc. As long as the value is you are looking for is to the left of what you are use as the lookup value, you don’t need the entire table. But the column where you have your range has to start with the lookup value or it won’t work. So left-most column must be the column with the lookup value. Vertical lookup. Searches for a value in the first column of a table and returns a value in the same row from a column that you specify in the table.
 =VLOOKUP(K1,C:D, 2, FALSE): this works K1 references column C
