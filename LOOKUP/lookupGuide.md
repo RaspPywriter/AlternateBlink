@@ -13,7 +13,8 @@ Designed for lookup value that is to the left of what you want to search for. So
 =VLOOKUP(K1,A:D, 4, FALSE): this fails since the range (A:D) does not start with the lookup value col
 
 Data Example
-| A | B | C | D | E | F | G | H | I |
+
+| A  | B  | C  | D  | E  | F  | G  | H  | I  |
 | -- | -- | -- | -- | -- | -- | -- | -- | -- |
 | 2 | ID | Employee Name | Address | Frequency | Salary | Tax Rate | Insurance | 401K |
 3	154	Paige Jones	1 fake St	26	42,900	15%	100.00	8%
