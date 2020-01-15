@@ -17,7 +17,7 @@ Data Example
 | A  | B  | C  | D  | E  | F  | G  | H  | I  |
 | -- | -- | -- | -- | -- | -- | -- | -- | -- |
 | 2 | ID | Employee Name | Address | Frequency | Salary | Tax Rate | Insurance | 401K |
-3	154	Paige Jones	1 fake St	26	42,900	15%	100.00	8%
+| 3 | 154 | Paige Jones | 1 fake St | 26 | 42,900 | 15% | 100.00 | 8% |
 4	240	Elijah Ward	2 G St	26	64,600	16%	200.00	7%
 Get each of these values after getting the employee id
 VLOOKUP(lookup value, lookup range, column, match)  col = where to find val, match = t/f
