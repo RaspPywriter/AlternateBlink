@@ -18,9 +18,11 @@ Data Example
 | -- | -- | -- | -- | -- | -- | -- | -- | -- |
 | 2 | ID | Employee Name | Address | Frequency | Salary | Tax Rate | Insurance | 401K |
 | 3 | 154 | Paige Jones | 1 fake St | 26 | 42,900 | 15% | 100.00 | 8% |
-4	240	Elijah Ward	2 G St	26	64,600	16%	200.00	7%
+| 4 | 240 | Elijah Ward | 2 G St | 26 | 64,600 | 16% | 200.00 | 7% |
+
 Get each of these values after getting the employee id
-VLOOKUP(lookup value, lookup range, column, match)  col = where to find val, match = t/f
+VLOOKUP(lookup value, lookup range, column, match)  
+lookup val --> what to find, lookup range --> range where values are located, col --> where to find val, match = true/false
 Employee Name: VLOOKUP($L$3, $B$3:$I$4, 2, FALSE) false means exact match only
 Pay (M7): VLOOKUP($L$3, $B$3:$I$4, 5, FALSE)/($L$3, $B$3:$I$4, 4, FALSE)  4 & 5 =cols (Freq & Salary)
 Insurance (O8): VLOOKUP($L$3, $B$3:$I$4, 7, FALSE)
